@@ -120,13 +120,9 @@ export default function AllComponents() {
                   </IgrListItem>
                   <IgrListItem key={uuid()}>
                     <div style={{display: 'contents'}} slot="start" key={uuid()}>
-                      <IgrAvatar shape="circle">
-                        <span className={classes("material-icons")} key={uuid()}>
-                          <span key={uuid()}>person</span>
-                        </span>
-                      </IgrAvatar>
+                      <IgrAvatar src="/src/assets/d4c387693b4db8c8354a14897762a46dcf820844.png" shape="circle" className={classes("avatar_1")}></IgrAvatar>
                     </div>
-                    <div slot="title" key={uuid()}>Default with Subtitle and Avatar</div>
+                    <div slot="title" key={uuid()}>Image asset</div>
                     <div slot="subtitle" key={uuid()}>Subtitle...</div>
                     <span slot="end" className={classes("material-icons icon")} key={uuid()}>
                       <span key={uuid()}>keyboard_arrow_right</span>
@@ -134,9 +130,23 @@ export default function AllComponents() {
                   </IgrListItem>
                   <IgrListItem key={uuid()}>
                     <div style={{display: 'contents'}} slot="start" key={uuid()}>
-                      <IgrAvatar src="/src/assets/d4c387693b4db8c8354a14897762a46dcf820844.png" shape="circle" className={classes("avatar_1")}></IgrAvatar>
+                      <IgrAvatar src="https://images.unsplash.com/photo-1638643391904-9b551ba91eaa?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" shape="circle" className={classes("avatar_2")}></IgrAvatar>
                     </div>
-                    <div slot="title" key={uuid()}>Image Avatar</div>
+                    <div slot="title" key={uuid()}>Image URL</div>
+                    <div slot="subtitle" key={uuid()}>Subtitle...</div>
+                    <span slot="end" className={classes("material-icons icon")} key={uuid()}>
+                      <span key={uuid()}>keyboard_arrow_right</span>
+                    </span>
+                  </IgrListItem>
+                  <IgrListItem key={uuid()}>
+                    <div style={{display: 'contents'}} slot="start" key={uuid()}>
+                      <IgrAvatar shape="circle">
+                        <span className={classes("material-icons")} key={uuid()}>
+                          <span key={uuid()}>person</span>
+                        </span>
+                      </IgrAvatar>
+                    </div>
+                    <div slot="title" key={uuid()}>Default with Subtitle and Avatar</div>
                     <div slot="subtitle" key={uuid()}>Subtitle...</div>
                     <span slot="end" className={classes("material-icons icon")} key={uuid()}>
                       <span key={uuid()}>keyboard_arrow_right</span>
@@ -661,12 +671,15 @@ export default function AllComponents() {
                   <span key={uuid()}>people</span>
                 </span>
               </IgrAvatar>
-              <IgrAvatar initials="AB" shape="rounded" size="large"></IgrAvatar>
-              <IgrAvatar initials="AB" shape="rounded" size="medium"></IgrAvatar>
-              <IgrAvatar initials="AB" shape="rounded"></IgrAvatar>
-              <IgrAvatar src="/src/assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" shape="rounded" size="large" className={classes("avatar_2")}></IgrAvatar>
-              <IgrAvatar src="/src/assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" shape="rounded" size="medium" className={classes("avatar_3")}></IgrAvatar>
-              <IgrAvatar src="/src/assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" shape="rounded" className={classes("avatar_4")}></IgrAvatar>
+              <IgrAvatar initials="AB" size="large"></IgrAvatar>
+              <IgrAvatar initials="AB" size="medium"></IgrAvatar>
+              <IgrAvatar initials="AB"></IgrAvatar>
+              <IgrAvatar src="/src/assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" shape="rounded" size="large" className={classes("avatar_3")}></IgrAvatar>
+              <IgrAvatar src="/src/assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" shape="rounded" size="medium" className={classes("avatar_4")}></IgrAvatar>
+              <IgrAvatar src="/src/assets/a7f211be67afc061d9571f5b5b5236cd92420e0c.png" shape="rounded" className={classes("avatar_5")}></IgrAvatar>
+              <IgrAvatar src="https://images.unsplash.com/photo-1638643391904-9b551ba91eaa?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" shape="rounded" size="large" className={classes("avatar_6")}></IgrAvatar>
+              <IgrAvatar src="https://images.unsplash.com/photo-1638643391904-9b551ba91eaa?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" shape="rounded" size="medium" className={classes("avatar_7")}></IgrAvatar>
+              <IgrAvatar src="https://images.unsplash.com/photo-1638643391904-9b551ba91eaa?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" shape="rounded" className={classes("avatar_8")}></IgrAvatar>
             </div>
           </div>
           <div className={classes("column-layout group_14")}>

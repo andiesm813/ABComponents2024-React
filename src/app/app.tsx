@@ -103,6 +103,17 @@ export default function App() {
                 <div slot="content" key={uuid()}>Forms</div>
               </IgrNavDrawerItem>
             </div>
+            <div style={{display: 'contents'}} onClick={() => navigate(`/forms`)} key={uuid()}>
+              <IgrNavDrawerItem>
+                <span slot="icon" key={uuid()}>
+                  <span className={classes("material-icons icon")} key={uuid()}>
+                    <span key={uuid()}>view_list</span>
+                  </span>
+                  <IgrRipple key={uuid()}></IgrRipple>
+                </span>
+                <div slot="content" key={uuid()}>Lists</div>
+              </IgrNavDrawerItem>
+            </div>
             <div style={{display: 'contents'}} onClick={() => navigate(`/radiogroup`)} key={uuid()}>
               <IgrNavDrawerItem>
                 <span slot="icon" key={uuid()}>

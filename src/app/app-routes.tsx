@@ -3,6 +3,7 @@ import AllComponents from './all-components/all-components';
 import AvatarsImages from './avatars-images/avatars-images';
 import Calendar from './calendar/calendar';
 import Forms from './forms/forms';
+import Lists from './lists/lists';
 import Radiogroup from './radiogroup/radiogroup';
 import Stepper from './stepper/stepper';
 export const routes = [
@@ -11,6 +12,7 @@ export const routes = [
   { path: 'avatars-images', element: <AvatarsImages />, text: 'Avatars-Images' },
   { path: 'calendar', element: <Calendar />, text: 'Calendar' },
   { path: 'forms', element: <Forms />, text: 'Forms' },
+  { path: 'lists', element: <Lists />, text: 'Lists' },
   { path: 'radiogroup', element: <Radiogroup />, text: 'Radiogroup' },
   { path: 'stepper', element: <Stepper />, text: 'Stepper' }
 ];
