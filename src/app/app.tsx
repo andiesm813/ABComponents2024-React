@@ -92,6 +92,28 @@ export default function App() {
                 <div slot="content" key={uuid()}>Calendar</div>
               </IgrNavDrawerItem>
             </div>
+            <div style={{display: 'contents'}} onClick={() => navigate(`/cards`)} key={uuid()}>
+              <IgrNavDrawerItem>
+                <span slot="icon" key={uuid()}>
+                  <span className={classes("material-icons icon")} key={uuid()}>
+                    <span key={uuid()}>dashboard</span>
+                  </span>
+                  <IgrRipple key={uuid()}></IgrRipple>
+                </span>
+                <div slot="content" key={uuid()}>Cards</div>
+              </IgrNavDrawerItem>
+            </div>
+            <div style={{display: 'contents'}} onClick={() => navigate(`/charts`)} key={uuid()}>
+              <IgrNavDrawerItem>
+                <span slot="icon" key={uuid()}>
+                  <span className={classes("material-icons icon")} key={uuid()}>
+                    <span key={uuid()}>insert_chart</span>
+                  </span>
+                  <IgrRipple key={uuid()}></IgrRipple>
+                </span>
+                <div slot="content" key={uuid()}>Charts</div>
+              </IgrNavDrawerItem>
+            </div>
             <div style={{display: 'contents'}} onClick={() => navigate(`/forms`)} key={uuid()}>
               <IgrNavDrawerItem>
                 <span slot="icon" key={uuid()}>
@@ -112,6 +134,17 @@ export default function App() {
                   <IgrRipple key={uuid()}></IgrRipple>
                 </span>
                 <div slot="content" key={uuid()}>Lists</div>
+              </IgrNavDrawerItem>
+            </div>
+            <div style={{display: 'contents'}} onClick={() => navigate(`/mouse-events`)} key={uuid()}>
+              <IgrNavDrawerItem>
+                <span slot="icon" key={uuid()}>
+                  <span className={classes("material-icons icon")} key={uuid()}>
+                    <span key={uuid()}>ads_click</span>
+                  </span>
+                  <IgrRipple key={uuid()}></IgrRipple>
+                </span>
+                <div slot="content" key={uuid()}>Mouse Events</div>
               </IgrNavDrawerItem>
             </div>
             <div style={{display: 'contents'}} onClick={() => navigate(`/radiogroup`)} key={uuid()}>
