@@ -277,7 +277,7 @@ export default function AllComponents() {
                       </h5>
                     </IgrCardHeader>
                     <IgrCardContent className={classes("body-content")}>
-                      <p className={classes("typography__body-1 text")} key={uuid()}>
+                      <p className={classes("typography__body-2 text")} key={uuid()}>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
                       </p>
                     </IgrCardContent>
@@ -356,7 +356,7 @@ export default function AllComponents() {
                       </IgrCardHeader>
                     </div>
                     <IgrCardContent className={classes("body-content")}>
-                      <p className={classes("typography__body-1 text")} key={uuid()}>
+                      <p className={classes("typography__body-2 text")} key={uuid()}>
                         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
                       </p>
                     </IgrCardContent>
@@ -729,6 +729,7 @@ export default function AllComponents() {
               </IgrSelectItem>
             </IgrSelect>
             <IgrCombo data={financialBoxOfficeRevenue} label="Combo" placeholder="Placeholder" displayKey="Franchise" outlined="false" singleSelect="true" className={classes("user-input")}></IgrCombo>
+            <IgrInput label="Label" outlined="true" className={classes("user-input")}></IgrInput>
           </div>
           <div className={classes("column-layout group_16")}>
             <IgrCalendar hideHeader="Horizontal" headerOrientation="horizontal" className={classes("calendar")}></IgrCalendar>
